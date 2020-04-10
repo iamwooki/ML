@@ -53,3 +53,6 @@ print(sess.run(adder_node, feed_dict={a: [1,3], b:[2,4]}))
 #### Shape : 각 몇개의 요소가 있는지 (배열 생각) [3,3] : 3차원 텐서에 3개의 요소
 
 #### Data type : 대부분 tf.float32, tf.int32 사용
+
+## ref
+- [ML lab 01 - TensorFlow의 설치및 기본적인 operations (new)](https://www.youtube.com/watch?v=-57Ne86Ia8w&feature=youtu.be)
