@@ -42,7 +42,7 @@ print(sess.run(adder_node, feed_dict={a: 3, b:4.5}))
 print(sess.run(adder_node, feed_dict={a: [1,3], b:[2,4]}))
 ```
 
-## Rank, SHape, Data type
+## Rank, Shape, Data type
 #### Math entity: rank
 - Scalar    : 0
 - Vector    : 1
@@ -50,6 +50,6 @@ print(sess.run(adder_node, feed_dict={a: [1,3], b:[2,4]}))
 - 3-Tensor  : 3
 - n-Tensor  : n
 
-#### Shape : 각 몇개의 요소가 있는지
+#### Shape : 각 몇개의 요소가 있는지 (배열 생각) [3,3] : 3차원 텐서에 3개의 요소
 
 #### Data type : 대부분 tf.float32, tf.int32 사용
