@@ -6,6 +6,9 @@
 - L(label) 실제 값, 예측한 S(y) 값(ÿ)
 - ```D(S,L) = -∑_i Li log(Si)``` = -∑_i Li(logÿi) = ∑_i(Li)*(-log(ÿi)), ÿ=0~1
 
+#### One-hot encoding
+- 하나의 값만 1(hot)로 두는 것
+
 ## ref
 - [ML lec 6-1 - Softmax Regression: 기본 개념 소개](https://www.youtube.com/watch?v=MFAnsx1y9ZI)
 - [ML lec 6-2: Softmax classifier 의 cost함수](https://www.youtube.com/watch?v=jMU9G5WEtBcp) 
