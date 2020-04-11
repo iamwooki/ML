@@ -2,7 +2,7 @@
 
 #### Cost(Loss) function
 - 우리가 세운 가설과 실제 데이터가 얼마나 차이나는지 ```H(x)-y```
-- ```H(x) = Wx + b```
+- ```H(x) = Wx + b, b=bias```
 - 간단한 가설 : ```cost(W,b) = 1/m * ∑_i=1 ^m ( H(x^i)-y^i )^2```
   - (Convex function 모양인지 확인이 되면 cost function의 설계가 제대로 된 것)
 - Goal : minimize cost(W,b) 
