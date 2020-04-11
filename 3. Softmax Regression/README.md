@@ -8,4 +8,4 @@
 
 ## ref
 - [ML lec 6-1 - Softmax Regression: 기본 개념 소개](https://www.youtube.com/watch?v=MFAnsx1y9ZI)
-- [ML lec 6-2: Softmax classifier 의 cost함수](https://www.youtube.com/watch?v=jMU9G5WEtBcp 
+- [ML lec 6-2: Softmax classifier 의 cost함수](https://www.youtube.com/watch?v=jMU9G5WEtBcp) 
