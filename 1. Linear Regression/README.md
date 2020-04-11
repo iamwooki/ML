@@ -18,7 +18,19 @@
 #### Multi-variable
 - ```H(x1,x2,x3, ... , xn) = w1x1 + w2x2 + w3x3 + ... + wnxn+  b``` 
 
+#### Slicing
+```python
+nums = range(5)
+print nums        # [0,1,2,3,4]
+print nums[2:4]   # [2,3]
+print nums[2:]    # [2,3,4]
+print nums[:2]    # [0,1]
+print nums[:]     # [0,1,2,3,4]
+print nums[:-1]   # [0,1,2,3]
+nums[2:4] = [8,9] # assign new sublist to a slice
+print nums        # [0,1,8,9,4]
 
+```
 
 ## ref
 - [ML lec 02 - Linear Regression의 Hypothesis 와 cost 설명](https://www.youtube.com/watch?v=Hax03rCn3UI)
