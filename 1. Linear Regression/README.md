@@ -31,6 +31,24 @@ nums[2:4] = [8,9] # assign new sublist to a slice
 print nums        # [0,1,8,9,4]
 
 ```
+#### Queue Runners [코드보기]()
+- TF에선 기본적으로 여러개의 파일을 불러왔을 때 Filename Queue에 넣고 Reader를 이용해 양식에 맞게 가공(Decoder)시킨 후 다른 Queue에 쌓음
+1. 파일 불러오기
+```python
+filename_queue = tf.train.string_input_producer(
+  ['data1.csv','data2.csv', ... ], shuffle=False, name='filename_queue')
+  ```
+2. 리더를 통한 가공
+```python
+reader = tf.TextLineReader()
+key, value = reader.read(filename_queue)
+```
+3. Decode
+```python
+record_defaults = [[0.],[0.],[0.],[0.]] #데이터 타입 형태 정의, 지금의 경우 float
+xy = tf.decode_csv(value, record_defaults = record_defaults)
+```
+4. Batch
 
 ## ref
 - [ML lec 02 - Linear Regression의 Hypothesis 와 cost 설명](https://www.youtube.com/watch?v=Hax03rCn3UI)
