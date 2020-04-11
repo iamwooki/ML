@@ -31,7 +31,7 @@ nums[2:4] = [8,9] # assign new sublist to a slice
 print nums        # [0,1,8,9,4]
 
 ```
-#### Queue Runners [코드보기]()
+#### Queue Runners [코드보기](https://github.com/iamwooki/ML/blob/master/1.%20Linear%20Regression/tf_MultiVariableFileLoadUsingReader.ipynb)
 - TF에선 기본적으로 여러개의 파일을 불러왔을 때 Filename Queue에 넣고 Reader를 이용해 양식에 맞게 가공(Decoder)시킨 후 다른 Queue에 쌓음
 1. 파일 불러오기
 ```python
