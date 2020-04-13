@@ -29,4 +29,3 @@
 - [lec 07-1: 학습 rate, Overfitting, 그리고 일반화 (Regularization)](https://www.youtube.com/watch?v=1jPjVoDV_uo&feature=youtu.be)
 - [lec 07-2: Training/Testing 데이타 셋](https://www.youtube.com/watch?v=KVv1nMSlPzY&feature=youtu.be)
 - [ML lab 07-1: training/test dataset, learning rate, normalization](https://www.youtube.com/watch?v=oSJfejG2C3w&feature=youtu.be)
-- [ML lab 07-2: Meet MNIST Dataset](https://www.youtube.com/watch?v=ktd5yrki_KA&feature=youtu.be)
