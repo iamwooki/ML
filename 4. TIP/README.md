@@ -27,3 +27,6 @@
 - ```Online learning``` : ex) 100만개의 데이터중 10만개씩 잘라서 순차적으로 학습시킴, 학습모델의 경우 기존에 학습된 모델을 기반으로 학습시켜나감
 ## ref
 - [lec 07-1: 학습 rate, Overfitting, 그리고 일반화 (Regularization)](https://www.youtube.com/watch?v=1jPjVoDV_uo&feature=youtu.be)
+- [lec 07-2: Training/Testing 데이타 셋](https://www.youtube.com/watch?v=KVv1nMSlPzY&feature=youtu.be)
+- [ML lab 07-1: training/test dataset, learning rate, normalization](https://www.youtube.com/watch?v=oSJfejG2C3w&feature=youtu.be)
+- [ML lab 07-2: Meet MNIST Dataset](https://www.youtube.com/watch?v=ktd5yrki_KA&feature=youtu.be)
