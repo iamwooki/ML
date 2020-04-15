@@ -110,3 +110,4 @@ for x, y. z in zip([1,2,3], [4,5,6], [7,8,9]):
 
 ## ref
 - [ML lab 01 - TensorFlow의 설치및 기본적인 operations (new)](https://www.youtube.com/watch?v=-57Ne86Ia8w&feature=youtu.be)
+- [ML lab 08: Tensor Manipulation](https://www.youtube.com/watch?v=ZYX0FaqUeN4&feature=youtu.be)
