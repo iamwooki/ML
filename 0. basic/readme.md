@@ -54,5 +54,45 @@ print(sess.run(adder_node, feed_dict={a: [1,3], b:[2,4]}))
 
 #### Data type : 대부분 tf.float32, tf.int32 사용
 
+#### Reduce mean / Reduce sum
+```python
+x = [[1. , 2.],  # ->axis =1
+     [3. , 4.,]]
+#     |
+#     V
+#   axis=0
+tf.reduce_mean([1,2]. axis=0).eval() #축에 따른 평균
+tf.reduce_mean(x).eval()  # 모든 값의 평균
+```
+#### Argmax : 맥시멈 값의 위치를 나타내줌
+```python
+x = [[0,1,2], [2,1,0] ]
+tf.argmax(x, axis=0).eval() # axis=0이므로 가로기준 가장 큰 값
+```
+#### Reshape
+```python
+t = [[[ ~~~ ]]]
+tf.reshape(t, shape =[-1,3]).eval()
+```
+##### squeeze
+##### expand
+
+#### One hot
+#### Casting
+```python
+tf.cast([1.8, 2.2, 3.3, 4.9]. tf.int32).eval()
+
+tf.cast([True, False, 1==1, 0==1], tf.int32).eval()
+```
+
+#### Stack
+
+#### Ones and Zeros like
+```python
+x = [[0, 1, 2], [2, 1, 0]] #이라 하면 이 모양에 맞게
+tf.ones_like(x).eval()# => [[1,1,1] , [1,1,1]]
+tf.zeros_like(x).eval()#=> [[0,0,0] , [0,0,0]]
+```
+
 ## ref
 - [ML lab 01 - TensorFlow의 설치및 기본적인 operations (new)](https://www.youtube.com/watch?v=-57Ne86Ia8w&feature=youtu.be)
