@@ -94,5 +94,19 @@ tf.ones_like(x).eval()# => [[1,1,1] , [1,1,1]]
 tf.zeros_like(x).eval()#=> [[0,0,0] , [0,0,0]]
 ```
 
+#### Zip
+```python
+for x, y  in zip([1,2,3],[4,5,6]):
+     print(x,y)
+#1 4
+#2 5
+#3 6
+for x, y. z in zip([1,2,3], [4,5,6], [7,8,9]):
+    print(x,y,z)
+#1 4 7
+#2 5 8
+#3 6 9
+```
+
 ## ref
 - [ML lab 01 - TensorFlow의 설치및 기본적인 operations (new)](https://www.youtube.com/watch?v=-57Ne86Ia8w&feature=youtu.be)
