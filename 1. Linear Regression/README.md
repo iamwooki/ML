@@ -3,7 +3,7 @@
 #### Cost(Loss) function
 - 우리가 세운 가설과 실제 데이터가 얼마나 차이나는지 ```H(x)-y```
 - ```H(x) = Wx + b, b=bias```
-- 간단한 가설 : ```cost(W,b) = 1/m * ∑_i=1 ^m ( H(x^i)-y^i )^2```
+- 간단한 가설 : ```cost(W,b) = 1/m * ∑_i=1 ^m ( H(x^i)-y^i )^2``` => least squared
   - (Convex function 모양인지 확인이 되면 cost function의 설계가 제대로 된 것)
 - Goal : minimize cost(W,b) 
 
@@ -55,3 +55,4 @@ xy = tf.decode_csv(value, record_defaults = record_defaults)
 - [ML lec 03 - Linear Regression의 cost 최소화 알고리즘의 원리 설명](https://www.youtube.com/watch?v=TxIVr-nk1so)
 - [ML lab 03 - Linear Regression 의 cost 최소화의 TensorFlow 구현 (new)](https://youtube.com/watch?v=Y0EF9VqRuEA)
 - [ML lec 04 - multi-variable linear regression (*new)](https://www.youtube.com/watch?v=kPxpJY6fRkY&t=15s)
+- [Regression 회귀분석](http://commres.net/wiki/regression)
